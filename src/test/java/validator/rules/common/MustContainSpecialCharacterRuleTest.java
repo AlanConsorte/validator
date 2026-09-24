@@ -15,9 +15,9 @@ public class MustContainSpecialCharacterRuleTest {
 
         Rule rule = MustContainSpecialCharacterRule.create();
 
-        boolean isValid = rule.validate("just only letters");
+        boolean isValid = rule.validate("justonlyletters");
 
-        assertFalse(isValid, "The rule should reject a text with no special characters.");
+        assertFalse(isValid, "Theruleshouldrejectatextwithnospecialcharacters");
     }
 
     @Test
